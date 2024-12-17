@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fotos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+.foto {
+    cursor: pointer;
+} /* bloco */
+
+.foto-imagem { /* elemento */
+    width: 100%;
+}
+
+.foto-nome { /* elemento */
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.foto-descricao { /* elemento */
+    color: gray;
+}
+
+.em--destaque { /* modificador */
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
+
+.form {
+    margin: 40px;
+    border-color: red;
+    background-color: rgb(245, 160, 160);
+    color: rgb(0, 0, 0);
+    border: 1px solid #333;
+    border-radius: 8px;
+    
+}
+.form__control {
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    
+}
+.form__submit {
+    cursor: pointer;
+}
+.form__submit--sending {
+    cursor: wait;
+}
